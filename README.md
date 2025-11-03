@@ -1,6 +1,6 @@
 # 🛒 Zona Mista
 
-Bem-vindo ao **E-Commerce de Camisetas**, um sistema completo de vendas online desenvolvido para oferecer uma experiência moderna e intuitiva de compra de camisetas personalizadas.
+Bem-vindo ao **Zona Mista**, um sistema completo de vendas online desenvolvido para oferecer uma experiência moderna e intuitiva de compra de camisetas personalizadas.
 
 Este projeto foi construído com foco em **boas práticas**, **organização**, **segurança** e **performance**, integrando um backend robusto com um frontend dinâmico e responsivo.
 
