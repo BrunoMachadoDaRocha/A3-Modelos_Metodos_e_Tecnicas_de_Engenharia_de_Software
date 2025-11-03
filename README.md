@@ -1,4 +1,4 @@
-# 🛒 E-Commerce de Camisetas
+# 🛒 Zona Mista
 
 Bem-vindo ao **E-Commerce de Camisetas**, um sistema completo de vendas online desenvolvido para oferecer uma experiência moderna e intuitiva de compra de camisetas personalizadas.
 
