@@ -1,3 +1,5 @@
+https://www.figma.com/design/T71c4DqCtNheVCZMThpBBD/A3---Modelos--M%C3%A9todos-de-engenharia-de-Software?node-id=0-1&t=JCztWQy0hOX3Vkqv-1
+
 # 🛒 Zona Mista ⚽
 
 Bem-vindo ao **Zona Mista**, um sistema completo de vendas online desenvolvido para oferecer uma experiência moderna e intuitiva de compra de camisetas personalizadas.
