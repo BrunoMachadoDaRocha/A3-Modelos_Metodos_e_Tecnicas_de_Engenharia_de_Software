@@ -1,4 +1,4 @@
-# 🛒 Zona Mista
+# 🛒 Zona Mista ⚽
 
 Bem-vindo ao **Zona Mista**, um sistema completo de vendas online desenvolvido para oferecer uma experiência moderna e intuitiva de compra de camisetas personalizadas.
 
