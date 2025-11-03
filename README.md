@@ -12,12 +12,12 @@ Este projeto foi construído com foco em **boas práticas**, **organização**, 
 - HTML5
 - CSS3
 - JavaScript
-- VueJS
+
 
 
 ### **Backend**
 - Node.js / Express  
-- JWT para autenticação  
+
 
 ---
 
