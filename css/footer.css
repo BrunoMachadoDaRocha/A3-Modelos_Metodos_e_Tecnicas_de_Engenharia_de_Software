@@ -1,0 +1,113 @@
+footer{
+    background-color: #524b4b;
+    opacity: 80%;
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    
+
+    & .logo-footer{
+        width: 50px;
+        height: 50px;
+
+        margin-inline: 50px;
+        margin-block: auto;
+    }
+    & .logo-footer-2{
+        width: 50px;
+        height: 50px;
+
+        margin-block: auto;
+    }
+
+    & .institutional,
+    & .our-products-footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+
+        & h3{
+            font-family: "Inter", sans-serif;
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 100%;
+
+            color: #fff;
+
+            margin-bottom: 1rem;
+        }
+
+        & ul{
+
+            font-family: "Inter", sans-serif;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 100%;
+
+            color: #fff;
+            
+            
+            & li{
+                margin-bottom: 5px;
+
+                cursor: pointer;
+
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+    & .institutional{
+        & li{
+            margin-left: 16px;
+        }
+    }
+
+    & .our-products-footer{
+        & li{
+            margin-left: 16px;
+        }
+    }
+
+    & .contact{
+        & h3{
+            font-family: "Inter", sans-serif;
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 100%;
+
+            color: #fff;
+
+            margin-bottom: 1rem;
+        }
+
+        & .telefone,
+        & .email{
+            display: flex;
+            align-items: center;
+            gap: .5rem;
+
+            margin-bottom: 10px;
+            
+            & span{
+                font-family: "Inter", sans-serif;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 100%;
+
+                color: #fff;
+            }
+        }
+
+        & .others{
+            display: flex;
+            gap: 2.5rem;
+        }
+    }
+}

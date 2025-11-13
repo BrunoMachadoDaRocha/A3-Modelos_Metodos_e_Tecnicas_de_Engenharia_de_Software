@@ -1,0 +1,182 @@
+.our-products{
+    margin-block: 160px;
+
+    & h2{
+        text-align: center;
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 100%;
+
+        margin-bottom: 70px;
+    }
+
+    & .team-shirts{
+        margin-inline: 200px;
+
+        display: flex;
+        justify-content: space-between;
+
+        margin-bottom: 50px;
+
+        & .div-gremio-shirt,
+        & .div-inter-shirt,
+        & .div-brasil-shirt{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+
+            width: 145px;
+            height: 217px;
+
+            background-color: #fcfcfc;
+
+            border-radius: 5px;
+            
+
+            & img{
+                width: 86px;
+                height: 86px;
+
+                margin-top: 22px;
+            }
+            & .brasil-shirt{
+                width: 75px;
+                height: 86px;
+            }
+
+            & span{
+                margin-top: 6px;
+
+                font-family: "Inter", sans-serif;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 100%;
+
+                color: #000;
+            }
+
+            & strong{
+                margin-top: .5rem;
+
+                font-family: "Inter", sans-serif;
+                font-weight: 600;
+                font-size: 15px;
+                line-height: 100%;
+
+                color: #000;
+            }
+
+            & button{
+                width: 105px;
+                height: 21px;
+
+                text-align: center;
+
+                margin-top: 1rem;
+
+                border-radius: 20px;
+
+                border: none;
+
+                background-color: #d9d9d9;
+
+                cursor: pointer;
+
+                font-family: "Inter", sans-serif;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 100%;
+
+                color: #000;
+
+                transition: 500ms;
+
+                &:hover{
+                    background-color: rgba(0, 0, 0, 0.3);
+                }
+            }
+        }
+    }
+
+    & .plain-shirts{
+        margin-inline: 200px;
+        display: flex;
+        justify-content: space-between;
+
+        & .div-white-shirt,
+        & .div-blue-shirt{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+
+            width: 145px;
+            height: 217px;
+
+            background-color: #fcfcfc;
+
+            border-radius: 5px;
+        }
+
+        & img{
+            width: 86px;
+            height: 86px;
+
+            margin-top: 22px;
+        }
+
+        & span{
+            margin-top: 6px;
+
+            font-family: "Inter", sans-serif;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 100%;
+
+            color: #000;
+        }
+
+        & strong{
+            margin-top: .5rem;
+
+            font-family: "Inter", sans-serif;
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 100%;
+
+            color: #000;
+        }
+
+        & button{
+            width: 105px;
+            height: 21px;
+
+            text-align: center;
+
+            margin-top: 1rem;
+
+            border-radius: 20px;
+
+            border: none;
+
+            background-color: #d9d9d9;
+
+            cursor: pointer;
+
+            font-family: "Inter", sans-serif;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 100%;
+
+            color: #000;
+
+            transition: 500ms;
+
+            &:hover{
+                background-color: rgba(0, 0, 0, 0.3);
+            }
+        }
+    }
+}

@@ -1,0 +1,45 @@
+.apresentation{
+    margin-top: 95px;
+
+    display: flex;
+    
+    justify-content: space-around;
+
+    & div{
+        margin-left: 150px;
+
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+
+        & h2{
+            text-align: center;
+
+            margin-bottom: 20px;
+
+            font-family: "Inter", sans-serif;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 100%;
+
+            color: #000;
+        }
+        
+        & p{
+            font-family: "Inter", sans-serif;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 100%;
+
+            color: #000;
+            opacity: 60%;
+        }
+    }
+
+    & img{
+        margin-right: 150px;
+
+        
+    }
+}
