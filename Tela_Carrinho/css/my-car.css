@@ -1,0 +1,150 @@
+.my-car{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-block: 100px;
+
+    & h1{
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
+        font-size: 27px;
+        line-height: 100%;
+
+        color: #000;
+
+        margin-bottom: 100px;
+    }
+
+    & .div-gremio-shirt,
+    & .div-white-shirt{
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        background-color: #d9d9d9;
+
+        border-radius: 10px;
+
+        margin-bottom: 20px;
+
+        width: 500px;
+
+        & div:first-child{
+
+            display: flex;
+            align-items: center;
+            
+
+            padding: 1rem;
+
+            & img{
+                width: 136px;
+                height: 136px;
+            }
+
+            & div {
+                display: flex;
+                flex-direction: column;
+                gap: .5rem;
+
+                & p{
+                    font-family: "Inter", sans-serif;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 100%;
+    
+                    color: #000;
+                }
+    
+                & span{
+                    font-family: "Inter", sans-serif;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 100%;
+    
+                    color: #000;
+                }
+    
+                & strong{
+                    font-family: "Inter", sans-serif;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 100%;
+
+                    color: #1f8ee4;
+                }
+            }
+
+        }
+
+        & div:last-child{
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+
+            margin-right: 1rem;
+            & img{
+                width: 36px;
+                height: 36px;
+
+                cursor: pointer;
+            }
+        }
+    }
+
+    & .total {
+        margin-block: 50px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        gap: .5rem;
+
+        & span:first-child{
+            font-family: "Inter", sans-serif;
+            font-weight: 600;
+            font-size: 25px;
+            line-height: 100%;
+
+            color: #000;
+        }
+
+        & span:last-child{
+            font-family: "Inter", sans-serif;
+            font-weight: 600;
+            font-size: 25px;
+            line-height: 100%;
+
+            color: #1f8ee4;
+        }
+    }
+
+    & button{
+        text-align: center;
+
+        padding: .5rem;
+
+        border-radius: 20px;
+
+        border: none;
+
+        cursor: pointer;
+
+        font-family: "Inter", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 100%;
+
+        color: #000;
+
+        transition: 500ms;
+
+        &:hover{
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+    }
+}
