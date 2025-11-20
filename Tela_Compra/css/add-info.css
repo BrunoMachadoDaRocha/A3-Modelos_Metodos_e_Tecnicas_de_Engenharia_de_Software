@@ -1,0 +1,118 @@
+.add-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+
+    margin-top: 30px;
+    margin-bottom: 100px;
+
+    & div:first-child {
+        display: flex;
+        flex-direction: column;
+
+        & h2 {
+            font-family: "Inter", sans-serif;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 100%;
+
+            color: #000;
+
+            margin-bottom: 30px;
+        }
+
+        & span {
+            font-family: "Inter", sans-serif;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 100%;
+
+            color: #000;
+
+            margin-bottom: 10px;
+        }
+    }
+
+    & div:last-child{
+        border-radius: 10px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+       padding-top: 50px;
+
+        & .div-inputs {
+            padding: 1rem;
+
+            border-radius: 10px;
+
+            margin-bottom: 1.5rem;
+            background-color: rgba(0, 0, 0, 0.3);
+
+            & input {
+                
+                border: none;
+                border-radius: 10px;
+
+                height: 1rem;
+
+                padding: .5rem;
+
+                font-family: "Inter", sans-serif;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 100%;
+
+                color: #000;
+                opacity: 50%;
+
+                &::placeholder{
+
+                    font-family: "Inter", sans-serif;
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 100%;
+
+                    color: #000;
+                    opacity: 50%;
+                }
+
+                &:focus{
+                    outline: none;
+                }
+            }
+
+            & input:first-child{
+                margin-bottom: 1rem;
+            }
+        }
+
+        & button{
+            text-align: center;
+
+            padding: .5rem;
+
+            border-radius: 20px;
+
+            border: none;
+
+            cursor: pointer;
+
+            font-family: "Inter", sans-serif;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 100%;
+
+            color: #000;
+
+            transition: 500ms;
+
+            &:hover{
+                background-color: rgba(0, 0, 0, 0.3);
+            }
+        }
+    }
+}
