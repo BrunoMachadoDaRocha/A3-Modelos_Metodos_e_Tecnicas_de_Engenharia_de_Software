@@ -1,0 +1,99 @@
+.inputs-cad{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    & h1 {
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 100%;
+
+        color: #000;
+
+        margin-block: 50px;
+    }
+
+    & div {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+
+        background-color: #fff;
+
+        width: 600px;
+
+        padding: 1rem;
+
+        border-radius: 10px;
+
+        margin-bottom: 50px;
+
+        & input {
+            background-color: transparent;
+            border: none;
+
+            width: 480px;
+
+            font-family: "Inter", sans-serif;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 100%;
+
+            color: #000;
+            opacity: 50%;
+
+            background-color: #cdc9c9;
+
+            padding: .5rem;
+
+            border-radius: 10px;
+
+            &::placeholder{
+
+                font-family: "Inter", sans-serif;
+                font-weight: 700;
+                font-size: 12px;
+                line-height: 100%;
+
+                color: #000;
+                opacity: 50%;
+            }
+
+            &:focus{
+                outline: none;
+            }
+        }
+    }
+
+    & button{
+        text-align: center;
+
+        padding: .5rem;
+
+        border-radius: 20px;
+
+        border: none;
+
+        cursor: pointer;
+
+        font-family: "Inter", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 100%;
+
+        color: #000;
+
+        transition: 500ms;
+
+        margin-bottom: 50px;
+
+        &:hover{
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+    }
+}
