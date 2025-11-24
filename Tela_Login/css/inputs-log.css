@@ -69,9 +69,8 @@
             }
         }
 
-        
-        & p{
-            font-family: "Inter", sans-serif;
+        & .esq{
+           font-family: "Inter", sans-serif;
             font-weight: 400;
             font-size: 14px;
             line-height: 100%;
@@ -81,8 +80,26 @@
             &:hover{
                 cursor: pointer;
                 text-decoration: underline;
+            } 
+        }
+
+        & a{
+            text-decoration: none;
+            & p{
+                font-family: "Inter", sans-serif;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 100%;
+    
+                color: #2200ff;
+    
+                &:hover{
+                    cursor: pointer;
+                    text-decoration: underline;
+                }
             }
         }
+        
     }
 
     & button{
